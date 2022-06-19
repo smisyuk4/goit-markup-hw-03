@@ -2,8 +2,7 @@
     --main-color: #212121;
     --brand-color: #2196F3;
     --second-color: #757575;
-    --third-color: #FFFFFF;   
-    --bgd-fcl: #E5E5E5;
+    --third-color: #FFFFFF;      
     --bgd-scl: #F5F4FA;  
     --count-cards: 4;
     --dst-between: 30px;  
@@ -164,6 +163,8 @@ p {
 
 /* section Hero */
 .hero{
+    padding-top: 200px;
+    padding-bottom: 200px;
     background-color: #2F303A;  
     text-align: center;       
 }
@@ -181,7 +182,7 @@ p {
 
 /* section Advantage */
 .advantage {
-    background-color: var(--bgd-fcl);
+    background-color: var(--third-color);
     padding-top: 94px;   
     padding-bottom: 94px;
 }
@@ -209,7 +210,7 @@ p {
 
 /* section works */
 .works {
-    background-color: var(--bgd-fcl);
+    background-color: var(--third-color);
     padding-bottom: 94px;    
 }
 
@@ -244,7 +245,8 @@ p {
     border-radius: 0px 0px 4px 4px;
 }
 
-.team .image {
+.team-desc {
+    margin-top: 30px;
     margin-bottom: 30px;
 }
 
@@ -259,8 +261,7 @@ p {
     font-weight: 400;    
     line-height: 1.2;
     letter-spacing: 0.03em;
-    color: var(--second-color);
-    padding-bottom: 30px;
+    color: var(--second-color);   
 }
 
 /* section Portfolio */
@@ -268,7 +269,7 @@ p {
     padding-top: 94px;
     padding-bottom: 94px;
     --count-cards: 3;
-    background-color: var(--bgd-fcl);
+    background-color: var(--third-color);
 }
 
 .sort-btn {
@@ -310,6 +311,10 @@ p {
 }
 
 .card-desc {
+    padding-top: 20px;    
+    padding-right: 24px;
+    padding-bottom: 20px;
+    padding-left: 24px;
     background-color: var(--third-color);    
     border-right: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
@@ -328,38 +333,31 @@ p {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;    
-    letter-spacing: 0.06em;
-    padding-top: 20px;
-    margin-bottom: 4px;
-    margin-left: 24px;   
+    letter-spacing: 0.06em;   
+    margin-bottom: 4px;   
 }
 
 .portfolio .category {
     font-weight: 400;    
     line-height: 1.9;
     letter-spacing: 0.03em;
-    color: var(--second-color);
-    padding-bottom: 20px;
-    margin-left: 24px;  
+    color: var(--second-color);    
 }
 
 /* footer */
 .footer {
     background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer .logo {
-    display: block;
-    padding-top: 60px;
+    display: block;  
     margin-bottom: 20px;
 }
 
 .address .item:not(:last-child) {
     margin-bottom: 9px;
-}
-
-.address .item:last-child {
-    padding-bottom: 60px;
 }
 
 .address .link {
